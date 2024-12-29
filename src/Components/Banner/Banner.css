@@ -1,0 +1,130 @@
+
+
+
+
+.all_text .heading p{
+
+    @apply md:text-[64px] text-[45px]
+
+    font-Volvohk font-bold
+
+    text-[#222222]
+
+    md:w-[521px] w-full 
+    
+    mt-[96px]
+
+}
+
+.all_text .heading p span{
+
+    @apply text-[#f87336]
+}
+
+.all_text p{
+
+    @apply text-[#666666] md:w-[497px] w-full font-medium md:text-[14px] text-[12px] 
+    md:mt-[32px] mt-[25px]
+}
+
+
+.banner_button button{
+
+    @apply 
+
+    py-[14px]
+
+    px-[28px]
+
+    border-[2px]
+
+    border-[#fa7436]
+
+    hover:bg-[#fa7436]
+    transition-all
+    hover:shadow-[0px_5px_11px_-4px_#fd903e]
+    duration-[.5s]
+    rounded-[5px]
+
+    text-[#fa7436]  md:text-[18px] font-Poppins font-medium
+
+    hover:text-white mt-[64px]
+
+
+    mb-[80px]
+
+
+}
+
+
+.Banner_img{
+
+    @apply flex items-center
+}
+
+
+.Banner_img img{
+
+    @apply md:w-[785px]
+
+    w-full
+}
+
+.banner_end{
+
+    @apply px-[10px] 
+    
+    py-[40px]
+
+    bg-[#ffff] shadow-[0px_4px_6px_2px_rgba(0,_0,_0,_0.1)] 
+
+    md:w-[1000px] w-full
+
+    rounded-[10px] m-auto
+
+   
+}
+
+.single_text .text_with_icon h1{
+
+    @apply text-[15px] 
+
+    text-[#1d1d1d] font-Poppins 
+
+    font-medium
+}
+
+.single_text  p{
+
+    @apply md:text-[12px]
+
+    text-[10px] text-[#666666] 
+
+    font-Poppins font-normal
+
+    mt-[15px]
+
+
+}
+
+.text_button button{
+
+    @apply 
+
+    py-[14px]
+
+    px-[28px]
+
+    bg-[#fa7436]
+    transition-all
+    hover:shadow-[0px_5px_11px_-4px_#fd903e]
+    duration-[.5s]
+    rounded-[5px]
+
+    text-[#fff]  md:text-[18px] font-Poppins font-medium
+
+    
+
+   
+}
+

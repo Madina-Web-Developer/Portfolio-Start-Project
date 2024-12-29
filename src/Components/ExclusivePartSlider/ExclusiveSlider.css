@@ -1,0 +1,37 @@
+
+
+
+.mina_exclusive{
+
+    @apply bg-[#FEFCFB] py-[120px]
+}
+
+
+.heading_Ex h1{
+
+    @apply md:text-[48px] text-[25px]
+
+    font-Volvohk font-bold text-[#222222]
+
+    md:w-[675px]
+}
+
+.heading_Ex span{
+
+@apply text-[#fa7436]
+
+
+}
+
+.heading_Ex p{
+
+    @apply text-[#666666]
+
+    md:text-[18px]  text-[14px] md:w-[433px] w-full
+
+    text-center font-normal font-Poppins
+
+    mt-[24px]
+
+    mb-[64px] md:ml-[18%]
+}

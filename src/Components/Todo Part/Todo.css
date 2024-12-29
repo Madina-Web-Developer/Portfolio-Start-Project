@@ -1,0 +1,132 @@
+
+
+
+.all_mina_todo{
+
+    @apply bg-[#f7f8fc]
+
+    py-[120px]
+
+    px-[120px]
+}
+
+
+.Todomain .todo_heading h1{
+
+    @apply md:text-[48px] text-[25px]
+
+    font-Volvohk font-bold text-[#222222]
+}
+
+.Todomain .todo_heading span{
+
+@apply text-[#fa7436]
+
+
+}
+
+.Todomain .todo_heading p{
+
+    @apply text-[#666666]
+
+    md:text-[18px]  text-[14px] md:w-[482px] w-full
+
+    text-center font-normal font-Poppins
+
+    mt-[24px]
+
+    mb-[64px]
+}
+
+.single_card{
+
+    @apply bg-[url('public/Card1.png')] md:w-[370px] 
+
+    p-[45px]
+
+    shadow-[rgba(17,_17,_26,_0.1)_0px_0px_16px]
+
+    rounded-[8px]
+
+
+}
+
+.card2{
+
+    @apply bg-[url('public/Card2.png')] 
+
+}
+
+
+
+.card3{
+
+    @apply bg-[url('public/Card3.png')] 
+
+}
+
+
+.single_card img{
+
+    @apply md:w-[48px] w-[35px]
+}
+
+.single_card h1{
+
+    @apply md:text-[24px] text-[16px] 
+
+    font-Poppins 
+
+    font-semibold
+
+    text-[#222222]
+
+    mt-[48px]
+}
+
+.single_card p{
+
+    @apply md:text-[16px]
+
+    text-[12px]  text-[#666666]
+
+    font-Poppins
+
+    font-normal
+
+    mt-[16px]
+}
+
+
+
+
+.single_card img{
+
+    @apply md:w-[48px] w-[35px]
+}
+
+.single_card h1{
+
+    @apply md:text-[24px] text-[16px] 
+
+    font-Poppins 
+
+    font-semibold
+
+    text-[#222222]
+
+    mt-[48px]
+}
+
+.single_card p{
+
+    @apply md:text-[16px]
+
+    text-[12px]  text-[#666666]
+
+    font-Poppins
+
+    font-normal
+
+    mt-[16px]
+}

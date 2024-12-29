@@ -1,0 +1,90 @@
+
+
+
+.navbar{
+
+    @apply md:py-[32px] py-[25px] 
+
+    flex justify-between items-center
+}
+
+
+
+
+.navbar .logo img{
+
+    @apply md:w-[140px] w-[100px]
+}
+
+
+
+
+
+.nav_ul_li ul{
+
+    @apply flex md:gap-[32px] gap-[20px]
+}
+
+.nav_ul_li ul li a{
+
+    @apply md:text-[16px] text-[12px]
+    
+    font-Poppins font-normal text-[#222222]
+
+     hover:font-semibold transition-all duration-[.4s]
+}
+
+
+
+.nav_button{
+
+    @apply flex md:gap-[15px] gap-[8px]
+
+}
+
+
+
+.nav_button .button2{
+
+    @apply 
+
+    md:text-[16px] text-[12px]
+    font-Poppins
+    font-semibold
+    md:py-[13px]   py-[7px]
+    md:px-[50px]   px-[10px]
+    text-[#ffff]
+    hover:text-[#FD8D3A]
+    bg-[#FA7436]
+    hover:bg-transparent
+    shadow-[0px_5px_11px_-4px_#fd903e]
+    transition-all
+    hover:shadow-none
+    duration-[.5s]
+    rounded-[5px]
+
+
+}
+
+
+.nav_button .button1{
+
+    @apply 
+
+    md:text-[16px] text-[12px]
+    font-Poppins
+    font-semibold
+    md:py-[13px]   py-[7px]
+    md:px-[50px]   px-[15px]
+    text-[#FD8D3A]
+    hover:text-white
+    hover:bg-[#FA7436]
+    hover:shadow-[0px_5px_11px_-4px_#fd903e]
+    transition-all
+    duration-[.5s]
+    rounded-[5px]
+
+}
+
+
+
