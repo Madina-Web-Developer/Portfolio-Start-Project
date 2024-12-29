@@ -18,7 +18,7 @@ const Banner = () => {
 
           
 
-            <div className="all_banner flex justify-between flex-wrap-reverse">
+            <div className="all_banner flex justify-between">
 
                 <div className="all_text">
 

@@ -1,0 +1,68 @@
+
+
+.submit_all{
+
+    @apply bg-white pt-[5px] 
+}
+
+
+.Submit{
+
+    @apply lg:w-[1170px] h-[416px] bg-[url('public/Footer_last_img.png')] mt-[100px]
+
+    bg-no-repeat  m-auto py-[80px] 
+}
+
+
+.Submit h1{
+
+    @apply  lg:text-[40px] w-full m-auto text-center
+
+    text-white font-Volvohk font-bold lg:w-[708px]
+}
+
+
+.data_sub{
+
+    @apply lg:w-[678px] h-[68px] bg-white rounded-[10px] 
+
+     
+    mt-[80px]
+
+    m-auto
+}
+
+
+ .data_sub   .sub_email{
+
+    @apply w-[520px] h-full outline-none border-none rounded-[10px]
+
+    placeholder:text-[20px] placeholder:text-center pl-[5%] font-Volvohk placeholder:font-Volvohk text-[20px]
+
+ }
+
+
+ .sub_button button{
+
+    @apply 
+
+    py-[12px]
+
+    px-[18px]
+
+    bg-[#fa7436]
+   
+    hover:scale-[1.1]
+
+
+    transition-all
+
+    rounded-[5px]
+
+    text-[#fff]  md:text-[18px] font-Poppins font-medium
+
+    
+
+   
+}
+

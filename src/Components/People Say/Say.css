@@ -1,0 +1,59 @@
+
+
+.swiper {
+
+    @apply mt-[17%] mx-auto   w-[550px] h-[350px]
+  
+}
+
+
+
+
+.all_mina_slide{
+
+    @apply flex justify-start items-center gap-[15%]
+}
+
+.all_Swiper_part{
+
+    @apply   bg-[url('public/SilkSliderBg.png')]
+
+    bg-no-repeat bg-cover
+}
+
+
+
+
+.Slider_img .silk_pic{
+
+    @apply w-[550px] 
+}
+
+
+.heading_Say h1{
+
+    @apply md:text-[48px] text-[25px]
+
+    font-Volvohk font-bold text-[#222222]
+
+    md:w-[394px]
+}
+
+.heading_Say span{
+
+@apply text-[#fa7436]
+
+
+}
+
+.heading_Say p{
+
+    @apply text-[#666666]
+
+    md:text-[16px]  text-[14px] md:w-[394px] w-full
+
+     font-normal font-Poppins
+
+    mt-[24px]
+
+}

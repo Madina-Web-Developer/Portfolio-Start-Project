@@ -1,0 +1,65 @@
+
+
+
+
+
+
+.update{
+
+    @apply  pt-[120px] bg-[#fff]
+}
+
+
+.heading_Update h1{
+
+    @apply md:text-[48px] text-[25px]
+
+    font-Volvohk font-bold text-[#222222]
+
+    md:w-[675px] text-center
+}
+
+.Update_text span{
+
+@apply text-[#fa7436]
+
+
+}
+
+
+.update_singel_Card{
+
+    @apply lg:w-[270px] w-full lg:h-[388px] rounded-[8px] bg-[#FEFCFB]   mb-[30px] mt-[60px]
+    
+}
+
+
+.update_text h1{
+
+    @apply lg:text-[18px] md:text-[18px] sm:text-[16px] text-[10px]
+
+    text-[#222222] font-Poppins font-medium w-[244px] mt-[24px]
+}
+
+
+.update_text h2{
+
+    @apply lg:text-[16px] md:text-[18px] sm:text-[16px] text-[10px]
+
+    text-[#b6b6b6] font-Poppins font-medium w-[244px] mt-[16px]
+}
+
+
+
+.slick-dots li button{
+    @apply text-[0px] h-2 w-2 bg-gray-400 rounded-full
+}
+.slick-dots{
+    @apply !flex justify-center gap-5
+}
+.slick-dots  .slick-active button{
+    @apply bg-[#fa7436] h-3 w-3
+}
+.update .slick-arrow{
+    @apply !text-[opx] !hidden
+}

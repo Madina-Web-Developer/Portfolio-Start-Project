@@ -1,0 +1,113 @@
+
+
+.mina_Plan{
+
+    @apply bg-[#FEFCFB] py-[120px]
+}
+
+
+.heading_plan h1{
+
+    @apply md:text-[48px] text-[25px]
+
+    font-Volvohk font-bold text-[#222222]
+
+    md:w-[675px] text-center
+}
+
+.heading_plan span{
+
+@apply text-[#fa7436]
+
+
+}
+
+.heading_plan p{
+
+    @apply text-[#666666]
+
+    md:text-[18px]  text-[14px] lg:w-[521px] w-full
+
+    text-center font-normal font-Poppins
+
+    mt-[24px]
+
+    mb-[64px] lg:ml-[10%]
+}
+
+
+
+
+
+.plan_singel_Card{
+
+    @apply lg:w-[370px] w-full lg:h-[447px] rounded-[16px] bg-[#FEFCFB] border-[2px] border-[#e3e3e3] hover:shadow-[0px_4px_4px_2px_rgba(249,_115,_22,_0.2)] mb-[30px]
+    
+    relative
+}
+
+
+
+.plan_singel_Card img{
+
+    @apply lg:w-[370px] lg:h-[327px] w-full rounded-[8px]
+}
+
+.Ex_text_part{
+
+    @apply py-[32px] px-[16px]
+}
+
+.right_text h1{
+
+    @apply lg:text-[24px] md:text-[18px] sm:text-[16px] text-[10px]
+
+    text-[#222222] font-Poppins font-medium 
+}
+
+
+.right_text .location_icon{
+
+    @apply lg:w-[13px] w-[10px] text-[#fb8954]
+}
+
+
+.left_text .star_icon{
+
+    @apply lg:w-[18px] w-[14px] text-[#ffc107]
+}
+
+
+.plan_text_part h2{
+
+    @apply lg:text-[16px] 
+
+    font-Poppins font-normal text-[#666666]
+}
+
+
+.plan_text_part h5{
+
+    @apply lg:text-[16px] 
+
+    font-Poppins font-medium text-[#999999]
+}
+
+
+.plan_text_part h6{
+
+    @apply lg:text-[24px] 
+
+    font-Poppins font-semibold text-[#fb8954] 
+
+}
+    
+    
+
+.mina_Plan .slick-arrow{
+    @apply text-[35px] absolute top-[-58px] right-[46%] md:right-[15%]   hover:scale-[1.1] duration-150 hover:text-gray-400 text-[#fa7436]
+}
+
+.mina_Plan .slick-next{
+    @apply  md:right-[10%] right-[42%] hover:text-gray-300
+}

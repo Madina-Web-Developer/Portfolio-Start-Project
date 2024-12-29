@@ -1,0 +1,50 @@
+
+
+
+.mina_Footer{
+
+    @apply bg-[#f7f8fc] pt-[326px] pb-[40px]
+}
+
+
+
+
+.left_part .logo{
+
+    @apply w-[130px]
+}
+
+
+.left_part p{
+
+    @apply lg:text-[16px]  
+
+    text-[#666666] font-Poppins w-[254px] font-medium
+
+    mt-[24px] mb-[20px]
+}
+
+
+
+
+
+
+
+
+
+
+.icons_footer .circle{
+
+    @apply w-[40px] h-[40px] bg-white hover:bg-[#fa7436] transition-all duration-[.4s] justify-center items-center flex rounded-full hover:text-[#fff]
+
+    shadow-[rgba(17,_17,_26,_0.1)_0px_0px_16px]
+}
+
+
+
+
+
+.icons_footer{
+
+    @apply flex gap-[24px]
+}

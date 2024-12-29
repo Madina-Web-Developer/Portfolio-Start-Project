@@ -23,7 +23,7 @@
 
 .all_text p{
 
-    @apply text-[#666666] md:w-[497px] w-full font-medium md:text-[14px] text-[12px] 
+    @apply text-[#666666] md:w-[497px] w-full font-medium md:text-[20px] text-[12px] 
     md:mt-[32px] mt-[25px]
 }
 
