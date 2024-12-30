@@ -4,15 +4,22 @@
 
 .all_text .heading p{
 
-    @apply md:text-[64px] text-[45px]
+    @apply lg:text-[64px] text-[10px]
+
+    md:text-[64px] sm:text-[45px]
+
+    
+
+    md:w-[521px] w-full 
+    
+    mt-[96px]   lg:mt-[105px]
+
 
     font-Volvohk font-bold
 
     text-[#222222]
 
-    md:w-[521px] w-full 
-    
-    mt-[96px]
+   
 
 }
 
@@ -23,20 +30,46 @@
 
 .all_text p{
 
-    @apply text-[#666666] md:w-[497px] w-full font-medium md:text-[20px] text-[12px] 
-    md:mt-[32px] mt-[25px]
+    @apply text-[#666666] 
+    
+    md:w-[497px]    w-full   font-medium 
+
+    text-[5px] 
+    
+    md:text-[20px]   lg:text-[20px] 
+
+    md:mt-[32px] mt-[10px]
 }
+    
+  
 
 
 .banner_button button{
 
     @apply 
 
-    py-[14px]
+    lg:py-[14px]      py-[3px]
 
-    px-[28px]
 
-    border-[2px]
+    lg:px-[28px]      px-[5px]
+
+
+    text-[5px]
+
+    md:text-[18px]
+
+    lg:text-[18px]
+
+    rounded-[2px]    lg:rounded-[5px]
+ 
+    border-[1px]
+
+    lg:border-[2px]
+
+    lg:mt-[64px]   mt-[20px]
+
+    lg:mb-[80px]   mb-[50px]
+
 
     border-[#fa7436]
 
@@ -44,14 +77,14 @@
     transition-all
     hover:shadow-[0px_5px_11px_-4px_#fd903e]
     duration-[.5s]
-    rounded-[5px]
+   
 
-    text-[#fa7436]  md:text-[18px] font-Poppins font-medium
+    text-[#fa7436]   font-Poppins font-medium
 
-    hover:text-white mt-[64px]
+    hover:text-white 
 
-
-    mb-[80px]
+     
+    
 
 
 }
@@ -65,29 +98,48 @@
 
 .Banner_img img{
 
-    @apply md:w-[785px]
+    @apply md:w-[785px]  lg:w-[785px]
 
     w-full
 }
 
 .banner_end{
 
-    @apply px-[10px] 
+    @apply 
     
-    py-[40px]
+    px-[10px] 
+    
+    py-[20px]
+
+    lg:px-[10px] 
+    
+    lg:py-[40px]
 
     bg-[#ffff] shadow-[0px_4px_6px_2px_rgba(0,_0,_0,_0.1)] 
 
     md:w-[1000px] w-full
 
-    rounded-[10px] m-auto
+    lg:rounded-[10px]  rounded-[2px]
+    
+    m-auto
 
    
 }
 
+.all_text_end{
+
+    @apply
+
+    flex justify-center items-center 
+    
+    md:gap-[110px] gap-[20px]
+}
+
 .single_text .text_with_icon h1{
 
-    @apply text-[15px] 
+    @apply 
+    
+    lg:text-[16px]   text-[8px]
 
     text-[#1d1d1d] font-Poppins 
 
@@ -96,9 +148,11 @@
 
 .single_text  p{
 
-    @apply md:text-[12px]
+    @apply text-[4px]  
+    
+    md:text-[14px]   lg:text-[14px]  
 
-    text-[10px] text-[#666666] 
+     text-[#666666] 
 
     font-Poppins font-normal
 
@@ -107,21 +161,34 @@
 
 }
 
+
+.icon{
+
+    @apply text-[#fa7436] lg:text-[14px]
+
+    text-[8px]
+}
+
 .text_button button{
 
     @apply 
 
-    py-[14px]
+    py-[5px]    lg:py-[14px]
 
-    px-[28px]
+    px-[5px]    lg:px-[28px]
+
+    md:text-[18px]    lg:text-[18px]    text-[5px]
+
+
+    lg:rounded-[5px]    rounded-[2px]
 
     bg-[#fa7436]
     transition-all
     hover:shadow-[0px_5px_11px_-4px_#fd903e]
     duration-[.5s]
-    rounded-[5px]
+  
 
-    text-[#fff]  md:text-[18px] font-Poppins font-medium
+    text-[#fff]   font-Poppins font-medium
 
     
 

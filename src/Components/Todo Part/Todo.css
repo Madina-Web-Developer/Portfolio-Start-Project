@@ -1,19 +1,43 @@
 
 
+.Todomain{
+
+    @apply flex  justify-center  
+    
+    
+    
+    lg:ml-[40px]
+}
+
+
+.only_todo_text{
+
+    @apply text-center ml-[25px]
+}
 
 .all_mina_todo{
 
     @apply bg-[#f7f8fc]
 
-    py-[120px]
+    py-[50px]
+  
 
-    px-[120px]
+    lg:py-[120px]
+
+  
+}
+
+.heading_img img{
+
+    @apply lg:w-[100px] w-[40px]
 }
 
 
 .Todomain .todo_heading h1{
 
-    @apply md:text-[48px] text-[25px]
+    @apply text-[16px]
+
+    md:text-[48px] 
 
     font-Volvohk font-bold text-[#222222]
 }
@@ -29,24 +53,40 @@
 
     @apply text-[#666666]
 
-    md:text-[18px]  text-[14px] md:w-[482px] w-full
+    text-[7px] w-full
+
+    md:text-[18px]   md:w-[482px]
 
     text-center font-normal font-Poppins
 
-    mt-[24px]
+    lg:mt-[24px]    mt-[10px]
 
-    mb-[64px]
+    lg:mb-[64px]    mb-[20px]
+}
+
+
+.Todo_card{
+
+    @apply   flex justify-between flex-wrap  lg:gap-[27px]
 }
 
 .single_card{
 
-    @apply bg-[url('public/Card1.png')] md:w-[370px] 
+    @apply bg-[url('public/Card1.png')] 
+    
+    w-[140px]
+    
+    md:w-[370px]  lg:w-[370px]
 
-    p-[45px]
+    lg:p-[45px]   md:p-[45px]
+
+    p-[20px]
 
     shadow-[rgba(17,_17,_26,_0.1)_0px_0px_16px]
 
     rounded-[8px]
+
+    mb-[10px] lg:mb-[0px]
 
 
 }
@@ -68,12 +108,26 @@
 
 .single_card img{
 
-    @apply md:w-[48px] w-[35px]
+    @apply md:w-[48px]
+    
+    lg:w-[48px]
+    
+    w-[10px]
 }
 
 .single_card h1{
 
-    @apply md:text-[24px] text-[16px] 
+    @apply 
+    
+    md:text-[24px] 
+
+    lg:text-[24px] 
+    
+    text-[10px] 
+
+    mt-[10px]
+
+    lg:mt-[48px]
 
     font-Poppins 
 
@@ -81,7 +135,7 @@
 
     text-[#222222]
 
-    mt-[48px]
+   
 }
 
 .single_card p{

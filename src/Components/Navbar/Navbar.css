@@ -3,9 +3,11 @@
 
 .navbar{
 
-    @apply md:py-[32px] py-[25px] 
+    @apply lg:py-[25px] py-[25px] 
 
-    flex justify-between items-center
+    flex  gap-[5px] justify-start
+    
+    lg:justify-between items-center
 }
 
 
@@ -13,21 +15,30 @@
 
 .navbar .logo img{
 
-    @apply md:w-[140px] w-[100px]
+    @apply w-[30px]
+    
+    
+    lg:w-[140px] 
 }
-
-
-
 
 
 .nav_ul_li ul{
 
-    @apply flex md:gap-[32px] gap-[20px]
+    @apply flex justify-center items-center
+    
+    
+    gap-[10px] 
+    
+    
+    lg:gap-[32px] 
 }
 
 .nav_ul_li ul li a{
 
-    @apply md:text-[16px] text-[12px]
+    @apply text-[5px]
+    
+    
+    lg:text-[16px] 
     
     font-Poppins font-normal text-[#222222]
 
@@ -38,7 +49,10 @@
 
 .nav_button{
 
-    @apply flex md:gap-[15px] gap-[8px]
+    @apply flex gap-[2px]
+    
+    
+    lg:gap-[15px] 
 
 }
 
@@ -48,11 +62,24 @@
 
     @apply 
 
-    md:text-[16px] text-[12px]
+
+    lg:w-[150px]
+
+    w-[40px]
+
+
+    text-[5px]  
+
+    lg:text-[16px] 
+
     font-Poppins
     font-semibold
-    md:py-[13px]   py-[7px]
-    md:px-[50px]   px-[10px]
+
+    lg:py-[13px]   py-[1px]
+    lg:px-[20px]   px-[5px]
+
+    lg:rounded-[5px]  rounded-[2px]
+
     text-[#ffff]
     hover:text-[#FD8D3A]
     bg-[#FA7436]
@@ -61,7 +88,8 @@
     transition-all
     hover:shadow-none
     duration-[.5s]
-    rounded-[5px]
+
+
 
 
 }
@@ -71,11 +99,22 @@
 
     @apply 
 
-    md:text-[16px] text-[12px]
+
+    lg:w-[140px]
+
+
+    text-[5px]
+    
+    lg:text-[16px] 
+
+
     font-Poppins
     font-semibold
-    md:py-[13px]   py-[7px]
-    md:px-[50px]   px-[15px]
+
+    lg:py-[13px]   py-[7px]
+    lg:px-[50px]   px-[15px]
+
+
     text-[#FD8D3A]
     hover:text-white
     hover:bg-[#FA7436]

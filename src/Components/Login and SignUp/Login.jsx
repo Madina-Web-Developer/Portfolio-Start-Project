@@ -116,7 +116,7 @@ const Login = () => {
       {/* --------- Email Input */}
 
     <label className='login_label' htmlFor="username">Email</label>
-    <input onChange={(e)=>{setFormData((preve)=>({...preve, Email:e.target.value})), seterror((preve)=>({...preve, EmailError:''}))}} className="login_input" placeholder="Email" type="email"/>
+    <input onChange={(e)=>{setFormData((preve)=>({...preve, Email:e.target.value})), seterror((preve)=>({...preve, EmailError:''}))}} className="login_input" placeholder="@Email..." type="email"/>
 
     {/* ---UserName Error */}
     <p className='login_Error' >{error.EmailError}</p>
@@ -131,14 +131,15 @@ const Login = () => {
 
         show?
 
-         <FaEye onClick={()=>setShow(!show)} className='icon text-[20px] absolute top-[10px] right-3 text-[#909090]'/>
+         <FaEye onClick={()=>setShow(!show)} className=' text-[20px] absolute top-[10px] right-3 text-[#909090]'/>
            
             :
            
-         <FaEyeSlash onClick={()=>setShow(!show)} className='icon text-[22px] absolute top-[10px] right-3 text-[#909090]' />
+         <FaEyeSlash onClick={()=>setShow(!show)} className=' text-[22px] absolute top-[10px] right-3 text-[#909090]' />
       }
 
-    <input onChange={(e)=>{setFormData((preve)=>({...preve, Password:e.target.value})), seterror((preve)=>({...preve, PasswordError:''}))}} type={show? 'text':'password'} className="login_input" placeholder="Password"/>
+    <input onChange={(e)=>{setFormData((preve)=>({...preve, Password:e.target.value})), seterror((preve)=>({...preve, PasswordError:''}))}} type={show? 'text':'password'} className="login_input" placeholder="Password...
+    ."/>
 
 
     {/* password Error  */}

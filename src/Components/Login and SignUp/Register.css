@@ -1,6 +1,4 @@
-body {
-  @apply bg-gray-200;
-}
+
 
 .background {
   @apply w-[430px] h-[520px] absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2;
@@ -11,15 +9,15 @@ form {
 }
 
 form h3 {
-  @apply text-[30px] font-bold font-Volvohk leading-[42px] text-center text-white;
+  @apply text-[30px] font-bold font-Volvohk leading-[42px] text-center text-white mt-1
 }
 
 label {
-  @apply block mt-4 text-[16px] font-semibold font-Volvohk text-gray-900;
+  @apply block mt-6 text-[16px] font-semibold font-Volvohk text-gray-900;
 }
 
 input {
-  @apply block h-10 w-full bg-white bg-opacity-75 rounded-sm px-2.5  text-[15px] font-medium text-gray-700 outline-none placeholder-gray-400;
+  @apply block h-10 w-full bg-white bg-opacity-75 rounded-sm px-2.5  text-[15px] font-medium text-gray-700 outline-none placeholder:text-slate-400
 }
 
 

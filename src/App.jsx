@@ -6,6 +6,7 @@ import app from './Firebase.Config'
 import Register from './Components/Login and SignUp/Register'
 import { ToastContainer } from 'react-toastify'
 import Login from './Components/Login and SignUp/Login'
+import About from './Components/Pages/About'
 
 
 function App() {
@@ -19,6 +20,7 @@ const myRoute= createBrowserRouter(
       <Route path='/' element={<LayoutOne/>}>
 
       <Route index element={<Home/>}/>
+      <Route path='/about' element={<About/>}/>
 
       </Route>
 

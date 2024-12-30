@@ -10,7 +10,7 @@ const Banner = () => {
 
     <div className="mina_all_banner bg-[#FEFCFB]
     
-     md:pb-[120px] pb-[80px]
+     md:pb-[120px] pb-[80px] pt-[30px]
     ">
 
 
@@ -18,7 +18,7 @@ const Banner = () => {
 
           
 
-            <div className="all_banner flex justify-between">
+            <div className="all_banner flex justify-between items-center">
 
                 <div className="all_text">
 
@@ -47,14 +47,14 @@ const Banner = () => {
 
             <div className="banner_end">
 
-                <div className="all_text_end flex justify-center items-center md:gap-[110px] gap-[60px] flex-wrap">
+                <div className="all_text_end ">
 
                     <div className="single_text">
 
                         <div className="text_with_icon flex items-center gap-[5px] ">
                         <h1>Location</h1>
                         <div className="icon">
-                        <FaChevronDown className='icon text-[#fa7436] text-[14px]' />
+                        <FaChevronDown className='icon' />
                         </div>
                         </div>
 
@@ -68,7 +68,7 @@ const Banner = () => {
                         <div className="text_with_icon flex items-center gap-[5px] ">
                         <h1>Location</h1>
                         <div className="icon">
-                        <FaChevronDown className='icon text-[#fa7436] text-[14px]' />
+                        <FaChevronDown className='icon' />
                         </div>
                         </div>
 
@@ -82,7 +82,7 @@ const Banner = () => {
                         <div className="text_with_icon flex items-center gap-[5px] ">
                         <h1>Location</h1>
                         <div className="icon">
-                        <FaChevronDown className='icon text-[#fa7436] text-[14px]' />
+                        <FaChevronDown className='icon ' />
                         </div>
                         </div>
 

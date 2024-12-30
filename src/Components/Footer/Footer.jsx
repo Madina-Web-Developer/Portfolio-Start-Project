@@ -82,8 +82,7 @@ const Footer = () => {
             </div>
 
             <br />
-            <br />
-
+        
             <hr />
 
             <div className="last_end flex justify-between mt-[40px]">

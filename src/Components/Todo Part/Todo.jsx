@@ -9,9 +9,9 @@ const Todo = () => {
 
         <div className="container">
 
-            <div className="Todomain flex justify-center  ml-[40px]">
+            <div className="Todomain">
 
-                <div className="only_todo_text ml-[20%]">
+                <div className="only_todo_text lg:ml-[20%]">
                 <div className="todo_heading">
                     <h1>Things you need <span>to do</span></h1>
                     <p>We ensure that you’ll embark on a perfectly planned, safe vacation at a price you can afford. </p>
@@ -27,7 +27,7 @@ const Todo = () => {
 
             </div>
 
-            <div className="Todo_card flex gap-[27px] flex-wrap justify-center">
+            <div className="Todo_card ">
 
                 <div className="single_card">
 
@@ -42,7 +42,7 @@ const Todo = () => {
 
                   <div className="single_card card2">
 
-                    <img src="public/CardLogo2.png" alt="cardlogo" />
+                    <img  src="public/CardLogo2.png" alt="cardlogo" />
 
                     <h1>Worth of Money</h1>
 

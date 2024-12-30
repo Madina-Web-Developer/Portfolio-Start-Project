@@ -19,8 +19,8 @@ const Navbar = () => {
                 <div className="nav_ul_li">
 
                     <ul>
-                        <li><Link to={'#'}>Home</Link></li>
-                        <li><Link to={'#'}>About</Link></li>
+                        <li><Link to={'/'}>Home</Link></li>
+                        <li><Link to={'/about'}>About</Link></li>
                         <li><Link to={'#'}>Destination</Link></li>
                         <li><Link to={'#'}>Tour</Link></li>
                         <li><Link to={'#'}>Blog</Link></li>

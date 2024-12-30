@@ -161,7 +161,7 @@ const handelSubmit = (e)=>{
            {/* --------- UserName Input ----------- */}
    
            <label htmlFor="username">Username</label>
-           <input onChange={(e)=>{SetFormData((preve)=>({...preve , UserName:e.target.value})) , SetError((preve)=>({...preve, UsereNameError:''}))}} type="text" placeholder="Enter your name"/>
+           <input onChange={(e)=>{SetFormData((preve)=>({...preve , UserName:e.target.value})) , SetError((preve)=>({...preve, UsereNameError:''}))}} type="text" placeholder="Enter your name..."/>
    
            {/* ======= UsearName Error======== */}
    
@@ -171,7 +171,7 @@ const handelSubmit = (e)=>{
    {/* ------------------ Email Input ------------------ */}
            
            <label htmlFor="email">Email</label>
-           <input onChange={(e)=>{SetFormData((preve)=>({...preve, Email:e.target.value})), SetError((preve)=>({...preve, EmailError:''}))}}  type="email" placeholder="Email or Phone" id="username"/>
+           <input onChange={(e)=>{SetFormData((preve)=>({...preve, Email:e.target.value})), SetError((preve)=>({...preve, EmailError:''}))}}  type="email" placeholder="@Email..." id="username"/>
            {/* -------- EmailError----------- */}
            <p className='Error' > {Error.EmailError} </p>
    
@@ -182,14 +182,14 @@ const handelSubmit = (e)=>{
    
                {
                    show?
-                   <FaEye onClick={()=>setShow(!show)} className='icon text-[20px] absolute top-[10px] right-3 text-[#909090]'/>
+                   <FaEye onClick={()=>setShow(!show)} className=' text-[20px] absolute top-[10px] right-3 text-[#909090]'/>
    
                    :
    
-                   <FaEyeSlash onClick={()=>setShow(!show)} className='icon text-[22px] absolute top-[10px] right-3 text-[#909090]' />
+                   <FaEyeSlash onClick={()=>setShow(!show)} className=' text-[22px] absolute top-[10px] right-3 text-[#909090]' />
    
                }
-           <input onChange={(e)=>{SetFormData((preve)=>({...preve, Password:e.target.value})), SetError((preve)=>({...preve, PasswordError:''}))}} type={show? 'text': 'password'} placeholder="Password"/>
+           <input onChange={(e)=>{SetFormData((preve)=>({...preve, Password:e.target.value})), SetError((preve)=>({...preve, PasswordError:''}))}} type={show? 'text': 'password'} placeholder="Password..."/>
    
             {/* -------- PasswordError----------- */}
    

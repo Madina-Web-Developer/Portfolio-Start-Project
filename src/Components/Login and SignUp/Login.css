@@ -1,8 +1,6 @@
 
 
-body {
-    @apply bg-gray-200;
-  }
+
   
   .background {
     @apply w-[430px] h-[520px] absolute left-1/2 top-1/2 transform -translate-x-1/2 -translate-y-1/2;
@@ -16,8 +14,6 @@ body {
     @apply text-[26px] font-bold leading-[25px]  text-center text-gray-800;
   }
 
-
-  
 
   form h4 {
     @apply text-[28px] font-Volvohk font-bold leading-[42px] text-center text-gray-100;

@@ -10,7 +10,7 @@
 
     @apply lg:w-[1170px] h-[416px] bg-[url('public/Footer_last_img.png')] mt-[100px]
 
-    bg-no-repeat  m-auto py-[80px] 
+    bg-no-repeat  m-auto py-[80px] absolute left-[50%] translate-x-[-50%]
 }
 
 

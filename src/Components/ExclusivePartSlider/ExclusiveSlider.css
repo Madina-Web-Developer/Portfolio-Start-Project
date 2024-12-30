@@ -3,13 +3,25 @@
 
 .mina_exclusive{
 
-    @apply bg-[#FEFCFB] py-[120px]
+    @apply bg-[#FEFCFB] lg:py-[120px]
+
+
+    md:py-[120px]
+
+
+    py-[60px]
+
+
 }
 
 
 .heading_Ex h1{
 
-    @apply md:text-[48px] text-[25px]
+    @apply 
+    
+    text-[22px]
+    
+    md:text-[48px]  lg:text-[48px] 
 
     font-Volvohk font-bold text-[#222222]
 
@@ -27,13 +39,19 @@
 
     @apply text-[#666666]
 
-    md:text-[18px]  text-[14px] md:w-[433px] w-full
+    text-[10px]
+
+    lg:text-[18px]
+
+    md:text-[18px]   md:w-[433px] w-full
 
     text-center font-normal font-Poppins
 
-    mt-[24px]
+    lg:mt-[24px] mt-[12px]
 
-    mb-[64px] md:ml-[18%]
+    lg:mb-[64px]  md:mb-[64px]    mb-[25px]
+    
+    md:ml-[18%]
 }
 
 
@@ -45,7 +63,7 @@
 
 .Ex_singel_Card{
 
-    @apply lg:w-[270px] w-full lg:h-[428px] rounded-[8px] bg-[#FEFCFB] border-[2px] border-[#e3e3e3] hover:shadow-[0px_4px_4px_0px_rgba(249,_115,_22,_0.3)] mb-[30px]
+    @apply lg:w-[270px] w-full lg:h-[428px] rounded-[10px] bg-[#FEFCFB] border-[2px] border-[#e3e3e3] hover:shadow-[0px_4px_4px_0px_rgba(249,_115,_22,_0.3)] mb-[30px]
     
     relative
 }
@@ -87,9 +105,11 @@
     @apply py-[32px] px-[16px]
 }
 
-.right_text h1{
+.Ex_text_part .right_text h1{
 
-    @apply lg:text-[24px] md:text-[18px] sm:text-[16px] text-[10px]
+    @apply lg:text-[24px] md:text-[18px] sm:text-[16px] 
+
+    text-[14px] 
 
     text-[#222222] font-Poppins font-medium 
 }
@@ -109,7 +129,7 @@
 
 .Ex_text_part h2{
 
-    @apply lg:text-[16px] 
+    @apply lg:text-[18px] 
 
     font-Poppins font-normal text-[#666666]
 }
@@ -133,9 +153,15 @@
 }
 
 .slick-arrow{
-    @apply text-[35px] absolute bottom-[-58px] right-[56%] md:right-[52%]   hover:scale-[1.1] duration-150 hover:text-gray-400 text-[#fa7436]
+    @apply lg:text-[40px] 
+
+    text-[25px]
+    
+    
+    
+    absolute bottom-[-60px] right-[50%] lg:right-[55%]  hover:scale-[1.1] duration-150 hover:text-gray-400 text-[#fa7436]
 }
 
 .slick-next{
-    @apply  md:right-[46%] right-[42%] hover:text-gray-300
+    @apply  lg:right-[48%] right-[40%] hover:text-gray-300
 }

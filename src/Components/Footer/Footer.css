@@ -3,7 +3,7 @@
 
 .mina_Footer{
 
-    @apply bg-[#f7f8fc] pt-[326px] pb-[40px]
+    @apply bg-[#f7f8fc] pt-[326px] pb-[40px] mt-[330px]
 }
 
 
@@ -26,13 +26,6 @@
 
 
 
-
-
-
-
-
-
-
 .icons_footer .circle{
 
     @apply w-[40px] h-[40px] bg-white hover:bg-[#fa7436] transition-all duration-[.4s] justify-center items-center flex rounded-full hover:text-[#fff]
@@ -47,4 +40,26 @@
 .icons_footer{
 
     @apply flex gap-[24px]
+}
+
+
+.single_one h1{
+
+    @apply lg:text-[18px] font-semibold font-Poppins text-[#222222]
+
+    mb-[32px]
+}
+
+.single_one h2{
+
+    @apply lg:text-[18px] font-normal font-Poppins text-[#666666]
+
+    mb-[16px]
+}
+
+.last_end h2{
+
+    @apply lg:text-[18px] font-normal font-Poppins text-[#666666]
+
+    
 }
