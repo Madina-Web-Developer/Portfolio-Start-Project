@@ -41,7 +41,7 @@ onValue(ref(db, 'Allemails/'), (snapshot) => {
 
     <div className="all  w-full">
 
-        <h1 className='lg:text-[30px]  text-orange-500 font-bold font-Volvohk pt-[10%]   text-center' >You can see all emails here that are submitted to the customer </h1>
+        <h1 className='lg:text-[30px]  text-orange-500 font-bold font-Volvohk pt-[2%]   text-center' >You can see all emails here that are submitted to the customer </h1>
 
         <div className="email_sub ">
 

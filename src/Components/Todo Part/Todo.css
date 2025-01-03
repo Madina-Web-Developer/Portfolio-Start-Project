@@ -67,7 +67,7 @@
 
 .Todo_card{
 
-    @apply   flex justify-between flex-wrap  lg:gap-[27px]
+    @apply   flex justify-between lg:flex-wrap  lg:gap-[27px]
 }
 
 .single_card{

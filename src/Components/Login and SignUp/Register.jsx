@@ -70,7 +70,7 @@ const handelSubmit = (e)=>{
 
 // ---------- Navigate  to the login page
 
-        navigate('/login')
+         navigate('/login')
 
 // ---------- Email Verification 
         sendEmailVerification(auth.currentUser)
@@ -87,12 +87,16 @@ const handelSubmit = (e)=>{
               theme: "light",
               transition: Slide,
               });
+
+            
   
     });
   
   //  ------- Create user id Catch
-      }).catch((error) => {
-        
+       
+ 
+
+
       }); 
   
     })
@@ -119,7 +123,7 @@ const handelSubmit = (e)=>{
             transition: Bounce,
             });
 
-            navigate('/login')
+           
       }
 
 
